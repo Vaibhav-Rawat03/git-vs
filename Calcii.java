@@ -2,9 +2,14 @@ public class Calcii{
     int Addition(int a,int b){
      return(a+b);
     }
+    int Subtract(int a,int b ){
+        return(a-b);
+    }
     public static void main(String args[]){
         Calcii c=new Calcii();
         int r=c.Addition(10,20);
+        int r2=c.Subtract(20,1);
         System.out.println(r);
+        System.out.println(r2);
     }
 }
